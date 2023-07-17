@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T17:20:57.196Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ai-z4kc42FPJnjjG9JqV" version="21.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-17T17:24:02.854Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mPJb4kc2J8Z9wRy_DCm9" version="21.6.2" type="github" pages="2">
   <diagram id="bi4WlLmfmDqnM7iCbPLg" name="Page-2">
-    <mxGraphModel dx="2442" dy="1984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2762" dy="1984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,7 +33,7 @@
           <mxGeometry x="-320" y="233.62" width="40" height="57.25" as="geometry" />
         </mxCell>
         <mxCell id="A6BgvAg_AirVWySVtOZ1-24" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#248814;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry y="70" width="1524" height="840" as="geometry" />
+          <mxGeometry y="70" width="1260" height="840" as="geometry" />
         </mxCell>
         <mxCell id="A6BgvAg_AirVWySVtOZ1-40" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticache;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="A6BgvAg_AirVWySVtOZ1-24">
           <mxGeometry x="550" y="295" width="67.5" height="81" as="geometry" />
@@ -366,10 +366,27 @@
           <mxGeometry x="500" y="-18.37" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FZ83kSdmjAVGEqHpkHzy-200" value="Cloud Front" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="885" y="-22" width="90" height="30" as="geometry" />
+          <mxGeometry x="810" y="11.630000000000003" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FZ83kSdmjAVGEqHpkHzy-201" value="Google" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="730" y="-162" width="60" height="30" as="geometry" />
+          <mxGeometry x="680" y="-162" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ83kSdmjAVGEqHpkHzy-208" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZ83kSdmjAVGEqHpkHzy-204" target="FZ83kSdmjAVGEqHpkHzy-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ83kSdmjAVGEqHpkHzy-204" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1444" y="836.3" width="40" height="57.25" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ83kSdmjAVGEqHpkHzy-210" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZ83kSdmjAVGEqHpkHzy-205">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="864.9250000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZ83kSdmjAVGEqHpkHzy-205" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/intune/Device_Security_Google.svg;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="842.6" width="44" height="44.65" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ83kSdmjAVGEqHpkHzy-206" value="Google" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1495.25" y="958" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
